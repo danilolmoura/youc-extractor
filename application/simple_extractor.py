@@ -54,7 +54,8 @@ def extact(word):
 			))
 		except Exception as e:
 			pass
-	
+
+	columns.sort()
 	for column in columns:
 		print(column)
 
